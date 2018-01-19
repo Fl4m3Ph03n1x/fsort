@@ -1,0 +1,61 @@
+{
+  "name": "node-sortable",
+  "version": "2.3.0",
+  "description": "Implementation of various sorting algorithms via pure functions",
+  "main": "./src/index",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "docusaurus-init": "^1.0.1",
+    "eslint": "^4.11.0",
+    "jsdoc": "^3.5.5",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0"
+  },
+  "scripts": {
+    "mocha": "nyc ./node_modules/mocha/bin/mocha --reporter spec",
+    "test": "nyc ./node_modules/mocha/bin/mocha --reporter spec test/unit/*_spec.js",
+    "doc": "./node_modules/.bin/jsdoc --configure .jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1fabiopereira/node-sortable.git"
+  },
+  "keywords": [
+    "sort",
+    "bubblesort",
+    "bubble-sort",
+    "bubble",
+    "sinkingsort",
+    "sinking-sort",
+    "sinking",
+    "insertionsort",
+    "insertion-sort",
+    "insertion",
+    "selectionsort",
+    "selection-sort",
+    "selection",
+    "gnomesort",
+    "gnome-sort",
+    "gnome",
+    "stupidsort",
+    "stupid-sort",
+    "stupid",
+    "combsort",
+    "comb-sort",
+    "comb"
+  ],
+  "author": "Fábio Pereira <fabio.pereira.gti@gmail.com>",
+  "contributors": [
+    "Pedro Miguel Pereira Serrano Martins <palmelapedro@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1fabiopereira/node-sortable/issues"
+  },
+  "homepage": "https://github.com/1fabiopereira/node-sortable#readme",
+  "dependencies": {}
+}
