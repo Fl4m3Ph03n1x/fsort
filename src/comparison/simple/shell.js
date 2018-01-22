@@ -24,6 +24,7 @@
 //TODO: Add a way of allowing the user to specify sequences via optional 1st param
 const shell = ( fnCompare, clonedArray  ) => {
 
+    //default non stable implementation: https://en.wikipedia.org/wiki/Shellsort
     const gaps = [ 701, 301, 132, 57, 23, 10, 4, 1 ];
     let temp;
     for( const gap of gaps ){
