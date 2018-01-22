@@ -7,14 +7,13 @@ const swap = require("../../utils/swap");
  * Comb sort improves on bubble sort by attacking the specific factors that make it slow.
  * It does this by categorizing objects into rabits ( big values at the start of the list ) and turtles ( small values near the end of the list ) and by eliminating turtles which cause the original algorithm to be slow.
  * Once all the turtles are eliminated, it then runs bubble sort, which will have a complexity as close to O(n) as possible.
- *
+ * In this implementation the shrinkFactor is of 1.3, as suggested by the authors.
  *
  * | Best-case perf. | Worst-case perf.  | Average perf. | Worst-case space perf.  | Stable  |
  * | :-------------- | :---------------  | :------------ | :---------------------  | :-----  |
  * | O(n log n)      | O(nˆ2)            | O(nˆ2 / 2^p)  | O(1) aux                | Yes     |
  *
  * Where *p* is the number of increments.
- * In this implementation the shrinkFactor is of 1.3, as suggested by the authors.
  *
  * ## When?
  *

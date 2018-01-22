@@ -20,7 +20,7 @@ const swap = require("../../utils/swap");
  * ## Additional Info:
  *
  * - [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
- * - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.html)
+ * - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm)
  * - [GeeksforGeeks](http://www.geeksforgeeks.org/bubble-sort/)
  *
  * ## Variations:

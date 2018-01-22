@@ -15,7 +15,7 @@
  * ## Additional Info:
  *
  * - [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
- * - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.html)
+ * - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm)
  * - [GeeksforGeeks](http://www.geeksforgeeks.org/insertion-sort/)
  *
  * ## Variations:

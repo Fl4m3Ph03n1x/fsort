@@ -26,7 +26,7 @@ const swap = require("../../utils/swap");
  * ## Additional Info:
  *
  * - [Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)
- * - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.html)
+ * - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm)
  * - [GeeksforGeeks](http://www.geeksforgeeks.org/selection-sort/)
  *
  * ## Variations:
