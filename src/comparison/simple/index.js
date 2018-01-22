@@ -6,6 +6,7 @@ const gnome = require("./gnome");
 const comb = require("./comb");
 const cocktail = require("./cocktail");
 const shell = require("./shell");
+const bingo = require("./bingo");
 const comparator = require("../../compareFns.js");
 
 /**
@@ -24,6 +25,7 @@ module.exports = Object.assign(
         gnome: constructSort( gnome ),
         comb: constructSort( comb ),
         cocktail: constructSort( cocktail ),
-        shell: constructSort( shell )
+        shell: constructSort( shell ),
+        bingo: constructSort( bingo )
     }
 );

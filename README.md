@@ -50,7 +50,7 @@ In computer science, big O notation is used to classify algorithms by how they r
 | Radix           | TODO    |
 | Counting        | TODO    |
 | Cube            | TODO    |
-| Bingo           | TODO    |
+| Bingo           | DONE    |
 | Gnome           | DONE    |
 | Cocktail        | DONE    |
 

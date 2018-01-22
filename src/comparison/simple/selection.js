@@ -33,7 +33,7 @@ const swap = require("../../utils/swap");
  *
  * - Heap sort is a modification of this algorithm that uses a heap data structure to find the lowest element. Given an N big enough, heap sort will be more efficient performance wise.
  * - Cocktail sort is a bi-directional version of this algorithm which finds both the minimum and maximum values of the list in each pass.
- * - Bing sort is a variant where the greatest value is found and moving all items with that value to the end of the new list.
+ * - Bingo sort is a variant where the greatest value is found and moving all items with that value to the end of the new list.
  */
 const selection = ( fnCompare, clonedArray ) => {
 
