@@ -63,7 +63,10 @@
     "shuffle",
     "shuttle-sort",
     "shuttlesort",
-    "shuttle"
+    "shuttle",
+    "shellsort",
+    "shell-sort",
+    "shell"
   ],
   "author": "Fábio Pereira <fabio.pereira.gti@gmail.com>",
   "contributors": [
