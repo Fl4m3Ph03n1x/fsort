@@ -1,9 +1,9 @@
 const swap = require("../../utils/swap");
 
 /**
- * @namespace Sort.Comparison.Simple.gnome
  * @desc
  * ## What?
+ *
  * Gnome sort ( aka stupid sort ) is an algorithm simillar to insertion sort, excpet that moving an element to its proper place is accomplished by a series of swaps like in bubble sort.
  *
  * It first finds the first element out of order and then swaps it, taking advantage of the fact that swapping an element can only add a new out of order adjacent pair next to the swapped elements.
@@ -20,9 +20,9 @@ const swap = require("../../utils/swap");
  *
  * ## Additional Info:
  *
- *  - [Wikipedia](https://en.wikipedia.org/wiki/Gnome_sort)
- *  - [NIST](https://xlinux.nist.gov/dads/HTML/gnomeSort.html)
- *  - [GeeksforGeeks](https://www.geeksforgeeks.org/gnome-sort-a-stupid-one/)
+ * - [Wikipedia](https://en.wikipedia.org/wiki/Gnome_sort)
+ * - [NIST](https://xlinux.nist.gov/dads/HTML/gnomeSort.html)
+ * - [GeeksforGeeks](https://www.geeksforgeeks.org/gnome-sort-a-stupid-one/)
  */
 const gnome = ( fnCompare, clonedArray  ) => {
 

@@ -1,9 +1,9 @@
 const swap = require("../../utils/swap");
 
 /**
- * @namespace Sort.Comparison.Simple.bubble
  * @desc
  * ## What?
+ *
  * Bubble sort ( aka sinking sort ) is an algorithm that steps through a list comparing adjacent items and swapping then when necessary.
  * This pass through is completed until no more swaps are needed.
  *
@@ -19,9 +19,9 @@ const swap = require("../../utils/swap");
  *
  * ## Additional Info:
  *
- *  - [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
- *  - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm)
- *  - [GeeksforGeeks](http://www.geeksforgeeks.org/bubble-sort/)
+ * - [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
+ * - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.html)
+ * - [GeeksforGeeks](http://www.geeksforgeeks.org/bubble-sort/)
  *
  * ## Variations:
  * - Odd-even sort and cocktail sort are both parallel versions of this algorithm.

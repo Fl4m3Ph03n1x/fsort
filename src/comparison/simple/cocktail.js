@@ -1,31 +1,25 @@
 const swap = require("../../utils/swap");
 
 /**
- * @namespace Sort.Comparison.Simple.cocktail
  * @desc
  * ## What?
- * Bubble sort ( aka sinking sort ) is an algorithm that steps through a list comparing adjacent items and swapping then when necessary.
- * This pass through is completed until no more swaps are needed.
+ *
+ * Cocktail shaker sort ( aka bidirectional bubble sort, cocktail sort, shaker sort, ripple sort, shuffle sort, shuttle sort ) is a variation of bubble sort that sorts in both directions on each pass through the list.
+ * Like comb sort, it attacks the problem of turtles and provides marginal performance improvements, making it usually around 2x faster than bubble sort.
  *
  * | Best-case perf. | Worst-case perf.  | Average perf. | Worst-case space perf.  | Stable  |
  * | :-------------- | :---------------  | :------------ | :---------------------  | :-----  |
- * | O(n)            | O(nˆ2)            | O(nˆ2)        | O(1) aux                | Yes     |
+ * | O(n)            | O(nˆ2)            | O(nˆ2)        | O(1)                    | Yes     |
  *
  * ## When?
- * When considering this algorithm, it is widely suggested to invest in other quadratic algorithms which generally produces faster results.
  *
- * This algorithm main strength is not used to sort but to detect elements out of order.
- * This happens because it is able to detect if an array is not ordered very rapidly and it can be executed in various sections of the array in parallel.
+ * Like comb sort, this algorithm improves on bubble sort and can be used when one requires consistent sort times at the cost of efficiency.
  *
  * ## Additional Info:
  *
- *  - [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
- *  - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm)
- *  - [GeeksforGeeks](http://www.geeksforgeeks.org/bubble-sort/)
- *
- * ## Variations:
- * - Odd-even sort and cocktail sort are both parallel versions of this algorithm.
- * - In some cases, the the algorithm starts from right to left. This is usual with partially sorted arrays, or arrays with unsorted items added to the end.
+ *  - [Wikipedia](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
+ *  - [GrowingWithTheWeb](http://www.growingwiththeweb.com/2016/04/cocktail-sort.html)
+ *  - [GeeksforGeeks](https://www.geeksforgeeks.org/cocktail-sort/)
  */
 const cocktail = ( fnCompare, clonedArray  ) => {
 

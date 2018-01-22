@@ -2,10 +2,9 @@ const advanced = require("./advanced");
 const simple = require("./simple");
 
 /**
- * @namespace Sort.Comparison
  * @desc
  * ## What?
- * 
+ *
  * @example <caption>Using bubble sort with a custom compare function.</caption>
  * const { bubble } = require("node-sortable");
  *
