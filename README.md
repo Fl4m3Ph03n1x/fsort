@@ -32,6 +32,10 @@ In computer science, big O notation is used to classify algorithms by how they r
 
 [See more](https://en.wikipedia.org/wiki/Big_O_notation)
 
+## Which algorithm to use?
+
+https://www.youtube.com/watch?v=ZZuD6iUe3Pc
+
 ## Roadmap
 
 | Algorithm       | Status  |
