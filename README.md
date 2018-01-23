@@ -2,7 +2,7 @@
 
 ## What is `fsort` ?
 
-`fsort` is a library that implements various sorting algorithms and exposes dia via a fucntional API.
+`fsort` is a library that implements various sorting algorithms and exposes via via a functional API.
 
 ## Why fsort ?
 
@@ -36,28 +36,25 @@ https://www.youtube.com/watch?v=ZZuD6iUe3Pc
 
 ## Roadmap
 
-| Algorithm       | Status  |
-| :-------------: | :-----  |
-| Quick           | TODO    |
-| Merge           | TODO    |
-| Comb            | DONE    |
-| Time            | TODO    |
-| Heap            | TODO    |
-| Bubble          | DONE    |
-| Insertion       | DONE    |
-| Selection       | DONE    |
-| Tree            | TODO    |
-| Shell           | DONE    |
-| Bucket          | TODO    |
-| Radix           | TODO    |
-| Counting        | TODO    |
-| Cube            | TODO    |
-| Bingo           | DONE    |
-| Gnome           | DONE    |
-| Cocktail        | DONE    |
+| Comparison Sorts      |
+| :-------------------- |
+| Simple    | Advanced  |
+| :-------- | :-------- |
+| Bubble    | Merge     |
+| Insertion | Heap      |
+| Selection | Quick     |
+| Bingo     | Tim       |
+| Shell     | Tree      |
+| Gnome     | --------- |
+| Cocktail  | --------- |
+| Comb      | --------- |
 
+| Integer Sorts |
+| :------------ |
+| Bucket        |
+| Radix         |
+| Counting      |
 
-View code docs in docs/index.html
 
 ## API
 
