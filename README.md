@@ -26,8 +26,6 @@ npm i fsort
 
 ##  Big-O Complexity Chart
 
-<img src="https://cdn.rawgit.com/1fabiopereira/node-sortable/master/img/chart.svg">
-
 In computer science, big O notation is used to classify algorithms by how they respond to changes in input size, such as how the processing time of an algorithm changes as the problem size becomes extremely large.
 
 [See more](https://en.wikipedia.org/wiki/Big_O_notation)
@@ -62,7 +60,5 @@ https://www.youtube.com/watch?v=ZZuD6iUe3Pc
 View code docs in docs/index.html
 
 ## API
-
-
 
 ## Example
